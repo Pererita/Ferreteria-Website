@@ -7153,6 +7153,10 @@ body.is-preload .gallery.onload-fade-in article .image img {
   background-color: rgba(0, 0, 0, 0.125);
 }
 
+.contacto {
+  background-color: #f36748;
+}
+
 /* Wrapper (style1) */
 
 .wrapper.style1 > .inner {
@@ -7539,6 +7543,14 @@ body.is-preload .items.onload-fade-in > * > .inner {
   opacity: 0;
 }
 
+.a__copy {
+  color: #fff;
+}
+
+.a__copy a {
+  text-decoration: none;
+  color: #fff;
+}
 /* Items (style1) */
 
 .items.style1 {
