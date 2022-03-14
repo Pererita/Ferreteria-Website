@@ -8127,15 +8127,15 @@ body.is-preload .items.onload-fade-in > * > .inner {
 }
 
 .items.style1 > * {
-  border-color: rgba(243, 103, 72, 0.5);
+  border-color: #f36748;
 }
 
 .items.style2 {
-  border-color: rgba(243, 103, 72, 0.5);
+  border-color: #f36748;
 }
 
 .items.style2 > * {
-  border-color: rgba(243, 103, 72, 0.5);
+  border-color: #f36748;
 }
 
 /* Index */
