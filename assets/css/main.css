@@ -7568,7 +7568,7 @@ body.is-preload .items.onload-fade-in > * > .inner {
   width: 50px;
   height: 2.5px;
   background-color: #f36748;
-  margin: 0 0 1rem 0;
+  margin-bottom: 1rem;
 }
 
 .franja__center {
@@ -7578,6 +7578,14 @@ body.is-preload .items.onload-fade-in > * > .inner {
   margin: auto;
   margin-bottom: 1rem;
 
+}
+
+@media (max-width: 665px) {
+  .franja, 
+  .franja__center{
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  }
 }
 /* Items (style1) */
 
