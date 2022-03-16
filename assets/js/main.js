@@ -341,3 +341,9 @@
 })(jQuery);
 
 // NAVBAR
+const ul = document.querySelector('nav ul')
+
+	function change(x) {
+		x.classList.toggle('change')
+		ul.classList.toggle('active')
+	}
