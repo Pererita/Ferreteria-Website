@@ -2210,7 +2210,7 @@ button:hover,
 .button:hover {
   color: #ffffff !important;
   background-color: #fc2f01;
-  box-shadow: 2.5px 2.5px 5px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.3);
 }
 
 input[type="submit"]:active,
@@ -7573,7 +7573,7 @@ body.is-preload .items.onload-fade-in > * > .inner {
   margin-bottom: 1rem;
 }
 
-@media (max-width: 665px) {
+@media (max-width: 736px) {
   .franja,
   .franja__center {
     margin: 0 auto;
@@ -7653,7 +7653,7 @@ transform: rotate(-45deg) translate(-6px, 4px);
   transform: rotate(45deg) translate(-8px, -7px);  
 }
 
-@media (max-width: 800px) {
+@media (max-width: 736px) {
   nav ul {
     position: absolute;
     top: 3.5rem;
@@ -7680,6 +7680,10 @@ transform: rotate(-45deg) translate(-6px, 4px);
     background: #acacac80;
   }
   nav ul li a {
+    color: #000;
+  }
+  
+  nav ul li a:hover {
     color: #000;
   }
   .bars {
